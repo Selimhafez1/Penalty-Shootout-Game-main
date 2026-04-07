@@ -2509,27 +2509,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59308e4976fc646ae96e9c6fc63cbf5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ShootWithTiming
-  keeperAnimator: {fileID: 0}
+  keeperAnimator: {fileID: 1977962590}
   keeperDiveTriggers:
   - DiveLeft
   - DiveRight
   - JumpMiddle
   - DiveTopRight
   - DiveTopLeft
-  ballRb: {fileID: 0}
-  tapAim: {fileID: 0}
-  timingBar: {fileID: 0}
+  ballRb: {fileID: 188138364}
+  tapAim: {fileID: 1987970925}
+  timingBar: {fileID: 998667475}
   shootAudio: {fileID: 1006307466}
-  minPower: 2
-  maxPower: 7
+  minPower: 4
+  maxPower: 9
   maxAngleErrorDegrees: 14
   redMissXMin: 1.2
   redMissXMax: 2
   redMissYMin: 0.15
   redMissYMax: 0.45
-  greenErrorDegrees: 4
-  yellowMinError: 10
-  yellowMaxError: 25
+  greenErrorDegrees: 2
+  yellowMinError: 20
+  yellowMaxError: 40
   orangeMaxError: 55
 --- !u!114 &1006307468
 MonoBehaviour:
