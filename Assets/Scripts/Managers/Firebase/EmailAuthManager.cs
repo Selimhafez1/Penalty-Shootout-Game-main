@@ -23,6 +23,13 @@ public class EmailAuthManager : MonoBehaviour
         //checks if status exists if yes, clears it for next status
         if (statusText != null)
             statusText.text = "";
+
+        //So user doesn;t have to log in every time they open the game.
+        if (auth.CurrentUser != null)
+        {
+            Debug.Log("User already signed in");
+            SceneManager.LoadScene("LevelSelect");
+        }
     }
 
     //creates a new firebase account using email and password 
